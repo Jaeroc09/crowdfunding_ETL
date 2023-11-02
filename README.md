@@ -17,3 +17,4 @@ The project works around the process of Extract, Transform, and Load (ETL).
 
 - QuickDBD was used to create the Entity Relationship Diagram (ERD) to visualize the schema.
 - Table schema was created in PostgreSQL and data from the .csv files were imported once created.
+- Import of files were initally performed through PGAdmin, but was able to perform load using SQLAlchemy and psycopg2.
